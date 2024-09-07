@@ -67,7 +67,7 @@
 
 .header__image {
   max-width: 984px;
-  height: 615px;
+  height: auto;
   margin: 0 auto 92px;
 }
 
@@ -164,7 +164,7 @@
 
   .header__image {
     width: 100%;
-    height: 615px;
+    height: auto;
     margin: 0 auto 90px;
     object-fit: contain;
   }
@@ -215,6 +215,72 @@
 
 
 @media screen and (max-width: 320px){
-  
+  .header__logo {
+    padding: 20px 0 0;
+    max-width: 188px;
+    height: 52px;
+    margin: 0 auto 50px;
+
+  }
+
+  .header__title {
+    font-size: 2.6rem;
+    line-height: 2.75rem;
+    margin: 0 auto 16px;
+    max-width: 228px;
+  }
+
+  .header__paragraph {
+    margin: 0 auto 0;
+    max-width: 288px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .header__image {
+    width: 100%;
+    height: auto;
+    margin: 40px auto 64px;
+  }
+
+  .location {
+    max-width: 288px;
+    margin: 0 16px 64px;
+
+
+  }
+
+  .location__subtitle {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    margin: 0 0 40px;
+    max-width: 288px;
+
+  }
+
+  .location__quote {
+    margin: 0 0 10px;
+    max-width: 288px;
+    line-height: 1.875rem;
+  }
+
+  .location__author {
+    margin: 0 0 32px;
+    max-width: 288px;
+  }
+
+  .header__paragraph {
+    margin: 0 0;
+
+  }
+
+  .footer__copyright {
+    margin: 0 auto 24px;
+
+  }
+
+
+
+
 
 }
