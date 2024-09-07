@@ -24,7 +24,9 @@
   text-align: center;
   color: #fff;
   margin: 90px auto 32px;
-  max-width: 720px;
+  /* max-width: 720px; */
+  max-width: 830px;
+
 
 
 }
@@ -48,7 +50,7 @@
 }
 
 
-/* ----------BREAKPOINT - TELA 1024 -----------*/
+/* ----------BREAKPOINT - TELA 1024----------*/
 
 
 @media screen and (max-width:1024px){
@@ -57,13 +59,18 @@
     line-height: 5.59375rem;
   }
 
-  /* .header__image {
+  .header__paragraph {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    /* margin: 0 auto 64px; */
+    max-width: 500px;
 
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 92px;
+  }
 
-  } */
+  .header__image {
+    max-width: 728px;
+    /* margin: 0 auto 92px; */
+  }
 
 
 }
@@ -90,6 +97,26 @@
     height: auto;
     margin: 0 auto 90px;
     object-fit: contain;
+  }
+
+
+}
+
+
+/* ----------BREAKPOINT - TELA 544----------*/
+
+@media screen and (max-width:544px) {
+
+  .header__title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    /* margin: 90px auto 25px; */
+    max-width: 300px;
+  }
+
+  .header__paragraph {
+    /* margin: 25 auto 30px; */
+    max-width: 350px;
   }
 
 

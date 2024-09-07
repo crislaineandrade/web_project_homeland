@@ -28,6 +28,7 @@
   font-size: 1.5rem;
   line-height: 2.125rem;
   margin: 0 0 10px;
+  max-width: 738px;
 }
 
 .location__author {
@@ -38,6 +39,7 @@
   line-height: 2.125rem;
   text-align: right;
   margin: 0;
+  max-width: 732px;
 
 }
 
@@ -48,21 +50,37 @@
   font-weight: 400;
   line-height: 1.63rem;
   margin: 32px 0 0;
+  max-width: 722px;
 }
 
 
-/* ----------BREAKPOINT - TELA 1024 -----------*/
+/* ----------BREAKPOINT - TELA 1024----------*/
 
 @media screen and (max-width:1024px){
+
+  .location {
+    /* max-width: 768px; */
+    max-width: 830px;
+  }
 
 
   .location__subtitle {
     font-size: 3.09375rem;
     line-height: 3.34375rem;
-    margin: 0 0 40px;
-    max-width: 680px;
+    /* margin: 0 0 40px; */
+    /* max-width: 770px; */
+    max-width: 830px;
+
 
   }
+
+  .location__quote {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    /* margin: 0 0 10px; */
+    max-width: 729px;
+  }
+
 
 }
 
@@ -74,7 +92,6 @@
   .location {
     max-width: 720px;
     margin: 0 24px 88px;
-    max-width: 830px;
     display: flex;
     flex-direction: column;
 
@@ -103,6 +120,27 @@
     margin: 0 0 0;
     max-width: 720px;
   }
+
+
+}
+
+/* ----------BREAKPOINT - TELA 544----------*/
+
+@media screen and (max-width:544px) {
+
+  .location {
+    max-width: 300px;
+
+  }
+
+  .location__subtitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* margin: 0 0 50px; */
+    max-width: 300px;
+
+  }
+
 
 
 }
