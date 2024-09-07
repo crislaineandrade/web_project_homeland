@@ -1,3 +1,10 @@
+@import url('/vendor/normalize.css');
+@import url('/blocks/page.css');
+@import url('/blocks/header.css');
+@import url('/blocks/location.css');
+@import url('/blocks/footer.css');
+
+
 @font-face {
   font-family: 'Inter';
   src: url(/vendor/fonts/web/Inter-ExtraBold.woff2) format('woff2');
@@ -10,24 +17,25 @@
   font-weight: 400;
 }
 
+
+
+
 .body {
   background-color: #2A2C2F;
 }
 
 
 
-.page {
+/* .page {
   background-color: #2A2C2F;
   max-width: 1280px;
 
 }
 
-/* HEADER */
 
 .header {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   margin: auto;
 
 }
@@ -71,7 +79,6 @@
   margin: 0 auto 92px;
 }
 
-/* SECTION:LOCANTION */
 
 .location {
   margin: 0 302px 132px 148px;
@@ -122,7 +129,6 @@
   margin: 32px 0 0;
 }
 
-/* FOOTER */
 
 .footer {
   display: flex;
@@ -137,18 +143,15 @@
   margin: 0 auto 24px;
   max-width: 166px;
 
-}
+} */
 
 
-@media screen and (max-width:1024px){
-  /* BREAKPOINT */
+/* ----------BREAKPOINT -----------*/
 
-
-}
 
 /* -------TELA 768-------- */
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
 
   .header__title {
     font-size: 4.6875rem;
@@ -209,12 +212,12 @@
 
   }
 
-}
+} */
 
 /* -------TELA 320-------- */
 
 
-@media screen and (max-width: 320px){
+/* @media screen and (max-width: 320px){
   .header__logo {
     padding: 20px 0 0;
     max-width: 188px;
@@ -278,9 +281,4 @@
     margin: 0 auto 24px;
 
   }
-
-
-
-
-
-}
+} */
