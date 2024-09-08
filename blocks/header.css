@@ -59,6 +59,8 @@
     font-size: 1.875rem;
     line-height: 2.25rem;
     max-width: 500px;
+    /* max-width: 400px; */
+    /* pq esta em uma linha ao inves de estar em 2 */
 
   }
 
