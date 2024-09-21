@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: 'Inter';
+  src: url('./fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
   src: url('./fonts/Inter-Regular.woff2') format('woff2');
   font-weight: 400;
 }
