@@ -143,7 +143,7 @@
   .place {
     margin: 72px 0;
     grid-template-columns: 340px 1fr;
-    grid-template-rows: auto auto
+    grid-template-rows: auto auto;
 
 
   }
