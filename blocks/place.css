@@ -58,13 +58,13 @@
   grid-area: image;
   margin: 0 0;
   object-fit: contain;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.50);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .place__image:hover {
   opacity: 0.5;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  /* background: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5); */
 
 
 
@@ -103,6 +103,7 @@
 
 .place__button:hover {
   background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  opacity: 0.5;
 
 }
 
