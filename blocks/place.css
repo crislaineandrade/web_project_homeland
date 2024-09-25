@@ -58,7 +58,7 @@
   grid-area: image;
   margin: 0 0;
   object-fit: contain;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .place__image:hover {
@@ -88,7 +88,7 @@
   background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
   padding: 13px 20px;
   border-radius: 4px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   font-family: 'Inter';
   font-weight: 600;
